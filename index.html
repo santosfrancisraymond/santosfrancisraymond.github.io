@@ -84,7 +84,7 @@
 function getNumberOfMonths() {
 
 	var start = moment('11/13/2017');
-	var future = moment();
+	var future = moment().format();
 	var d = future.diff(start, 'months'); // 9
 	document.write(d);
 
@@ -92,7 +92,7 @@ function getNumberOfMonths() {
 function getNumberOfYears() {
 
 	var start = moment('06/02/2008');
-	var future = moment();
+	var future = moment().format();
 	var d = future.diff(start, 'years'); // 9
 	document.write(d);
 
