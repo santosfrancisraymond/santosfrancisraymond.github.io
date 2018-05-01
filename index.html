@@ -134,7 +134,19 @@
 	<div class="info">
     <h4 class="title text-uppercase">Work Experience</h4>
     <ul class="list-unstyled clear-margin">
-    
+ 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.17.1/moment-with-locales.min.js"></script>
+<script>
+function getNumberOfDays() {
+
+	var start = moment('11/13/2017');
+	var future = moment(new Date());
+	var d = future.diff(start, 'days'); // 9
+	document.write(d);
+
+}
+</script>
+	    
 	<li class="card card-nested clearfix">
         <div class="content"><p class="clear-margin relative"><strong>IT Support Analyst</strong>,&nbsp;<a href="http://amadeus.com" target="_blank">Amadeus Japan K.K.</a></p><p class="text-muted"><small><span class="space-right">Nov 2017 - Present</span>
           <span><i class="icon-clock mr-5"></i><script>getNumberOfDays();</script> days</span></small></p><div class="mop-wrapper space-bottom">
@@ -684,18 +696,7 @@
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/js/bootstrap.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.17.1/moment-with-locales.min.js"></script>
 
-<script>
-function getNumberOfDays() {
-
-	var start = moment('11/13/2017');
-	var future = moment(new Date());
-	var d = future.diff(start, 'days'); // 9
-	document.write(d);
-
-}
-</script>
 
 <script>$(function () {
   var toggleFloatingMenu = function() {
