@@ -75,6 +75,29 @@
         </a>
 		</span>
     </div>
+	    
+	    
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.17.1/moment-with-locales.min.js"></script>
+<script>
+function getNumberOfMonths() {
+
+	var start = moment('11/13/2017');
+	var future = moment();
+	var d = future.diff(start, 'months'); // 9
+	document.write(d);
+
+}
+function getNumberOfYears() {
+
+	var start = moment('06/02/2008');
+	var future = moment();
+	var d = future.diff(start, 'years'); // 9
+	document.write(d);
+
+}
+</script>
         
     <!--div class="detail">
       <span class="icon">
@@ -109,7 +132,7 @@
   </div>
   </div>
 </section>
-
+  
 <section class="col-md-9 card-wrapper pull-right">
 <div class="card background-card">
 	<h4 class="text-uppercase">Background</h4><hr/>
@@ -135,25 +158,7 @@
     <h4 class="title text-uppercase">Work Experience</h4>
     <ul class="list-unstyled clear-margin">
  
-<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.17.1/moment-with-locales.min.js"></script>
-<script>
-function getNumberOfMonths() {
 
-	var start = moment('11/13/2017');
-	var future = moment();
-	var d = future.diff(start, 'months'); // 9
-	document.write(d);
-
-}
-function getNumberOfYears() {
-
-	var start = moment('06/02/2008');
-	var future = moment();
-	var d = future.diff(start, 'years'); // 9
-	document.write(d);
-
-}
-</script>
 	    
 	<li class="card card-nested clearfix">
         <div class="content"><p class="clear-margin relative"><strong>IT Support Analyst</strong>,&nbsp;<a href="http://amadeus.com" target="_blank">Amadeus Japan K.K.</a></p><p class="text-muted"><small><span class="space-right">Nov 2017 - Present</span>
@@ -702,8 +707,6 @@ function getNumberOfYears() {
 
 
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
 
 <script>$(function () {
