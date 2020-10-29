@@ -1,0 +1,8 @@
+title: santosfrancisraymond.github.io
+description: CV
+google_analytics: 
+show_downloads: true
+theme: jekyll-theme-cayman
+
+gems:
+  - jekyll-mentions
